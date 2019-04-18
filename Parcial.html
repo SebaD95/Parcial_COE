@@ -13,6 +13,8 @@
   <style>
     body {
       font-family: 'Open Sans', sans-serif;
+      background-image: url("fondo2.jpg");
+      background-size: cover;
     }
 
     .nav-pills .nav-link.active,
@@ -73,11 +75,26 @@
     }
 
     #variable {
-      margin: 20px;
+      margin-top: 20px;
+      margin-left: 150px;
+      margin-right: 150px;
+      box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+      border-radius: 2px;
+    }
+
+    h1,
+    h3 {
+      text-align: center;
+      font-family: cursive;
+      text-shadow: 2px 2px 2px #EF9A9A;
+      font-size: 45px;
+    }
+
+    .rounded-circle{
+      margin: auto;
+      display: block;
     }
   </style>
-
-
 </head>
 
 <body>
@@ -89,7 +106,7 @@
             <div class="card-header">Introducción</div>
             <div class="card-main">
               <i class="material-icons">contacts</i>
-              <div class="main-description">Introudcción</div>
+              <div class="main-description">Introducción</div>
             </div>
           </div>
         </a>
@@ -152,7 +169,17 @@
     </ul>
   </div>
   <div id="variable" class="tab-content">
-    <div class="tab-pane container fade" id="Introducción">Introducción</div>
+    <div class="tab-pane container active">
+      <h1>Psicodinámicas de la Oralidad</h1>
+      <br><br>
+      <h3 id="curva">Walter Ong</h3>
+      <figure>
+        <img src="ong.jpg" alt="Walter Ong" class="rounded-circle">
+      </figure>
+    </div>
+    <div class="tab-pane container fade" id="Introducción">
+      <h2>Comunicación</h2>Introducción a la Comunicación
+    </div>
     <div class="tab-pane container fade" id="Características">Características</div>
     <div class="tab-pane container fade" id="Comunicación_Oral">Comunicación_Oral</div>
     <div class="tab-pane container fade" id="Comunicación_Escrita">Comunicación_Escrita</div>
@@ -160,12 +187,18 @@
     <div class="tab-pane container fade" id="Conclusión">Conclusión</div>
   </div>
 
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="arctext/js/jquery.arctext.js"></script>
   </script>
+
+  <script>
+      $(document).ready(function(){
+        $('#curva').arctext({radius: 200});
+      });
+    </script>
+  
 </body>
 
 </html>
