@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Parcial</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+      color: #fff;
+      background-color: #D32F2F;
+    }
+
+    .card {
+      width: 160px;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #EF9A9A;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .card-header {
+      color: #D32F2F;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      border-bottom: 1px solid #EF9A9A;
+      background-color: #FFEBEE;
+      padding: 5px 10px;
+    }
+
+    .card-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 0;
+    }
+
+    .material-icons {
+      font-size: 36px;
+      color: #D32F2F;
+      margin-bottom: 5px;
+    }
+
+    .main-description {
+      color: #D32F2F;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      width: 100%;
+    }
+
+    .fluid-container {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      justify-content: center;
+    }
+
+    #variable {
+      margin: 20px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div id="main" class="fluid-container">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#Introducción">
+          <div class="card">
+            <div class="card-header">Introducción</div>
+            <div class="card-main">
+              <i class="material-icons">contacts</i>
+              <div class="main-description">Introudcción</div>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#Características">
+          <div class="card">
+            <div class="card-header">Características</div>
+            <div class="card-main">
+              <i class="material-icons">textsms</i>
+              <div class="main-description">Características</div>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#Comunicación_Oral">
+          <div class="card">
+            <div class="card-header">Comunicación Oral</div>
+            <div class="card-main">
+              <i class="material-icons">record_voice_over</i>
+              <div class="main-description">Comunicación Oral</div>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#Comunicación_Escrita">
+          <div class="card">
+            <div class="card-header">Comunicación Escrita</div>
+            <div class="card-main">
+              <i class="material-icons">message</i>
+              <div class="main-description">Comunicación Escrita</div>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#Diferencias">
+          <div class="card">
+            <div class="card-header">Diferencias</div>
+            <div class="card-main">
+              <i class="material-icons">import_contacts</i>
+              <div class="main-description">Diferencias</div>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#Conclusión">
+          <div class="card">
+            <div class="card-header">Conclusión</div>
+            <div class="card-main">
+              <i class="material-icons">person_pin</i>
+              <div class="main-description">Conclusión</div>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="variable" class="tab-content">
+    <div class="tab-pane container fade" id="Introducción">Introducción</div>
+    <div class="tab-pane container fade" id="Características">Características</div>
+    <div class="tab-pane container fade" id="Comunicación_Oral">Comunicación_Oral</div>
+    <div class="tab-pane container fade" id="Comunicación_Escrita">Comunicación_Escrita</div>
+    <div class="tab-pane container fade" id="Diferencias">Diferencias</div>
+    <div class="tab-pane container fade" id="Conclusión">Conclusión</div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </script>
+</body>
+
+</html>
