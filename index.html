@@ -50,6 +50,20 @@
       padding: 15px 0;
     }
 
+    .pdf {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    #pdf{
+      margin: 0px;
+      padding: 0px;
+      color: #D32F2F;
+    }
+
     .material-icons {
       font-size: 36px;
       color: #D32F2F;
@@ -62,7 +76,7 @@
       text-align: center;
     }
 
-    a {
+    a{
       text-decoration: none;
       width: 100%;
     }
@@ -88,112 +102,120 @@
       font-size: 45px;
     }
 
-    .rounded-circle{
+    .rounded-circle {
       margin: auto;
       display: block;
     }
 
-    @media (max-width: 320px){
+    @media (max-width: 320px) {
       .card {
-      width: 74px;
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #EF9A9A;
-      border-radius: 4px;
-      overflow: hidden;
+        width: 74px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #EF9A9A;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+
+      .card-header {
+        color: #D32F2F;
+        text-align: center;
+        font-size: 8px;
+        font-weight: 600;
+        border-bottom: 1px solid #EF9A9A;
+        background-color: #FFEBEE;
+        padding: 2px 5px;
+      }
+
+      .card-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0;
+      }
+
+      .material-icons {
+        font-size: 36px;
+        color: #D32F2F;
+        margin-bottom: 5px;
+      }
+
+      .main-description {
+        color: #D32F2F;
+        font-size: 8px;
+        text-align: center;
+      }
+
+      h1,
+      h3 {
+        text-align: center;
+        font-family: cursive;
+        text-shadow: 2px 2px 2px #EF9A9A;
+        font-size: 35px;
+      }
     }
 
-    .card-header {
-      color: #D32F2F;
-      text-align: center;
-      font-size: 8px;
-      font-weight: 600;
-      border-bottom: 1px solid #EF9A9A;
-      background-color: #FFEBEE;
-      padding: 2px 5px;
-    }
-
-    .card-main {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 5px 0;
-    }
-
-    .material-icons {
-      font-size: 36px;
-      color: #D32F2F;
-      margin-bottom: 5px;
-    }
-
-    .main-description {
-      color: #D32F2F;
-      font-size: 8px;
-      text-align: center;
-    }
-
-    h1,
-    h3 {
-      text-align: center;
-      font-family: cursive;
-      text-shadow: 2px 2px 2px #EF9A9A;
-      font-size: 35px;
-    }
-    }
-
-    @media (max-width: 450px) and (min-width: 320px){
+    @media (max-width: 450px) and (min-width: 320px) {
       .card {
-      width: 90px;
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #EF9A9A;
-      border-radius: 4px;
-      overflow: hidden;
+        width: 90px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #EF9A9A;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+
+      .card-header {
+        color: #D32F2F;
+        text-align: center;
+        font-size: 8px;
+        font-weight: 600;
+        border-bottom: 1px solid #EF9A9A;
+        background-color: #FFEBEE;
+        padding: 2px 5px;
+      }
+
+      .card-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0;
+      }
+
+      .material-icons {
+        font-size: 36px;
+        color: #D32F2F;
+        margin-bottom: 5px;
+      }
+
+      .main-description {
+        color: #D32F2F;
+        font-size: 8px;
+        text-align: center;
+      }
+
+      h1,
+      h3 {
+        text-align: center;
+        font-family: cursive;
+        text-shadow: 2px 2px 2px #EF9A9A;
+        font-size: 35px;
+      }
     }
 
-    .card-header {
-      color: #D32F2F;
-      text-align: center;
-      font-size: 8px;
-      font-weight: 600;
-      border-bottom: 1px solid #EF9A9A;
-      background-color: #FFEBEE;
-      padding: 2px 5px;
-    }
-
-    .card-main {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 5px 0;
-    }
-
-    .material-icons {
-      font-size: 36px;
-      color: #D32F2F;
-      margin-bottom: 5px;
-    }
-
-    .main-description {
-      color: #D32F2F;
-      font-size: 8px;
-      text-align: center;
-    }
-
-    h1,
-    h3 {
-      text-align: center;
-      font-family: cursive;
-      text-shadow: 2px 2px 2px #EF9A9A;
-      font-size: 35px;
-    }
-    }
   </style>
 </head>
 
 <body>
+  <a href="Psicodinámicas de la Oralidad.pdf" download="Psicodinámicas de la Oralidad" target="_onblank">
+   
+    <div class="pdf">
+        <p id="pdf">Descargar Texto Original</p>
+      <i class="material-icons">save_alt</i>
+    </div>
+  </a>
   <div class="fluid-container">
     <ul class="nav nav-pills">
       <li class="nav-item">
@@ -290,11 +312,11 @@
   </script>
 
   <script>
-      $(document).ready(function(){
-        $('#curva').arctext({radius: 200});
-      });
-    </script>
-  
+    $(document).ready(function () {
+      $('#curva').arctext({ radius: 200 });
+    });
+  </script>
+
 </body>
 
 </html>
