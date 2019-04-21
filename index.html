@@ -23,6 +23,29 @@
       background-color: #D32F2F;
     }
 
+    div.imagen {
+      float: right;
+    }
+
+    div.imagen img {
+      margin: 0;
+      padding: 0;
+    }
+
+    div.imagen span {
+      font-size: 11px;
+      margin: 0;
+      padding: 0;
+      font-style: italic;
+      text-align: center;
+      height: 0;
+    }
+
+    div.imagen span span {
+      display: block;
+      padding: 3px;
+    }
+
     .card {
       width: 160px;
       display: flex;
@@ -64,13 +87,7 @@
       color: #D32F2F;
     }
 
-    #text1 {
-      display: flex;
-      flex-direction: row;
-      margin-top: 10px;
-      justify-content: flex-start;
-    }
-
+  
     .material-icons {
       font-size: 36px;
       color: #D32F2F;
@@ -302,7 +319,7 @@
     </div>
     <div class="tab-pane container fade" id="Introducción">
       <h2>Comunicación</h2>Introducción a la Comunicación
-      <div style="overflow: auto;">
+      <div>
 
         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, alias. Fuga molestiae sequi
           accusantium
@@ -317,10 +334,14 @@
           accusantium
           deleniti. Corporis quod repellendus itaque dolore eaque. Repellendus corrupti ratione reiciendis et,
           deleniti</p>
-              <figure>
-                  <img src="img1.jpg" alt="Ilustración de Comunicación" class="img-thumbnail"
-                    style="float:right; height: 200px; width: auto;" title="Ilustración de Comunicación">
-                </figure>
+        <div class="imagen">
+          <figure>
+            <img src="img1.jpg" alt="Ilustración de Comunicación" class="img-thumbnail"
+              style="float:right; height: 200px; width: auto;" title="Ilustración de Comunicación">
+          </figure>
+          <span><span>Ilustración de Comunicación</span></span>
+        </div>
+
         <p>Porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, alias. Fuga molestiae
           sequi
           accusantium
@@ -337,8 +358,21 @@
           sequi
           accusantium
           deleniti. Corporis quod repellendus itaque dolore eaque. Repellendus corrupti ratione reiciendis et,
+          deleniti
+          olores eos. Porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, alias. Fuga molestiae
+          sequi
+          accusantium
+          deleniti. Corporis quod repellendus itaque dolore eaque. Repellendus corrupti ratione reiciendis et,
+          delenitiolores eos. Porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, alias. Fuga molestiae
+          sequi
+          accusantium
+          deleniti. Corporis quod repellendus itaque dolore eaque. Repellendus corrupti ratione reiciendis et,
+          delenitiolores eos. Porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, alias. Fuga molestiae
+          sequi
+          accusantium
+          deleniti. Corporis quod repellendus itaque dolore eaque. Repellendus corrupti ratione reiciendis et,
           deleniti</p>
-
+          <p><span>&nbsp;</span></p>
       </div>
 
     </div>
