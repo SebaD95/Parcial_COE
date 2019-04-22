@@ -24,6 +24,7 @@ body {
   div.imagen {
     display: table;
     float: right;
+    margin: 5px;
   }
 
   div.imagen img {
