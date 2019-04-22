@@ -9,240 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-      background-image: url("fondo2.jpg");
-      background-size: cover;
-    }
-
-    .nav-pills .nav-link.active,
-    .nav-pills .show>.nav-link {
-      color: #fff;
-      background-color: #D32F2F;
-    }
-
-    i,
-    b,
-    u {
-      color: red;
-      font-weight: 900;
-    }
-
-    ul {
-      justify-content: center;
-    }
-
-    div.imagen {
-      display: table;
-      float: right;
-    }
-
-    div.imagen img {
-      margin: 0;
-      padding: 0;
-    }
-
-    div.imagen span {
-      line-height: normal;
-      font-size: 11px;
-      margin: 0;
-      padding: 0;
-      color: black;
-      font-style: italic;
-      text-align: center;
-      height: 0;
-    }
-
-    div.imagen span span {
-      display: block;
-      padding: 3px;
-      text-shadow: 0 0 15px white;
-    }
-
-    .card {
-      width: 150px;
-      display: flex;
-      flex-direction: column;
-      border: 1px solid #EF9A9A;
-      border-radius: 4px;
-      overflow: hidden;
-    }
-
-    .card-header {
-      color: #D32F2F;
-      text-align: center;
-      font-size: 12px;
-      font-weight: 600;
-      border-bottom: 1px solid #EF9A9A;
-      background-color: #FFEBEE;
-      padding: 5px 10px;
-    }
-
-    .card-main {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 15px 0;
-    }
-
-    .pdf {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-weight: bold;
-    }
-
-    #pdf {
-      margin: 0px;
-      padding: 0px;
-      color: #D32F2F;
-    }
-
-
-    .material-icons {
-      font-size: 36px;
-      color: #D32F2F;
-      margin-bottom: 5px;
-    }
-
-    .main-description {
-      color: #D32F2F;
-      font-size: 14px;
-      text-align: center;
-    }
-
-    a {
-      text-decoration: none;
-      width: 100%;
-    }
-
-    .fluid-container {
-      display: flex;
-      margin-top: 10px;
-      justify-content: center;
-    }
-
-    #variable {
-      margin-top: 50px;
-      box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
-      border-radius: 12px;
-    }
-
-    h1,
-    h3 {
-      text-align: center;
-      font-family: cursive;
-      text-shadow: 2px 2px 2px #EF9A9A;
-      font-size: 45px;
-    }
-
-    .rounded-circle {
-      margin: auto;
-      display: block;
-    }
-
-    @media (max-width: 320px) {
-      .card {
-        width: 74px;
-        display: flex;
-        flex-direction: column;
-        border: 1px solid #EF9A9A;
-        border-radius: 4px;
-        overflow: hidden;
-      }
-
-      .card-header {
-        color: #D32F2F;
-        text-align: center;
-        font-size: 8px;
-        font-weight: 600;
-        border-bottom: 1px solid #EF9A9A;
-        background-color: #FFEBEE;
-        padding: 2px 5px;
-      }
-
-      .card-main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 5px 0;
-      }
-
-      .material-icons {
-        font-size: 36px;
-        color: #D32F2F;
-        margin-bottom: 5px;
-      }
-
-      .main-description {
-        color: #D32F2F;
-        font-size: 8px;
-        text-align: center;
-      }
-
-      h1,
-      h3 {
-        text-align: center;
-        font-family: cursive;
-        text-shadow: 2px 2px 2px #EF9A9A;
-        font-size: 35px;
-      }
-    }
-
-    @media (max-width: 450px) and (min-width: 320px) {
-      .card {
-        width: 90px;
-        display: flex;
-        flex-direction: column;
-        border: 1px solid #EF9A9A;
-        border-radius: 4px;
-        overflow: hidden;
-      }
-
-      .card-header {
-        color: #D32F2F;
-        text-align: center;
-        font-size: 8px;
-        font-weight: 600;
-        border-bottom: 1px solid #EF9A9A;
-        background-color: #FFEBEE;
-        padding: 2px 5px;
-      }
-
-      .card-main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 5px 0;
-      }
-
-      .material-icons {
-        font-size: 36px;
-        color: #D32F2F;
-        margin-bottom: 5px;
-      }
-
-      .main-description {
-        color: #D32F2F;
-        font-size: 8px;
-        text-align: center;
-      }
-
-      h1,
-      h3 {
-        text-align: center;
-        font-family: cursive;
-        text-shadow: 2px 2px 2px #EF9A9A;
-        font-size: 35px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="parcial.css">
 </head>
 
 <body>
@@ -335,10 +102,6 @@
 
       <h2><b>¿Qué es psicodinámica?</b></h2>
       <div style="overflow: auto;">
-        <p>La palabra <b><u><i>psicodinámica</i></u></b> está formada con raíces
-          griegas y significa <b><i>ciencia que
-              estudia las fuerzas que motivan la conducta</i></b>. Sus componentes léxicos son <b>psike (alma)</b> y
-          <b>dynamis (fuerza, poder)</b>, más el sufijo <b>-ica (relativo a)</b></p>
         <div class="imagen">
           <figure>
             <img src="img1.jpg" alt="Ilustración de Comunicación" class="img-thumbnail"
@@ -346,6 +109,11 @@
           </figure>
           <span><span>Ilustración de Comunicación</span></span>
         </div>
+        <p>La palabra <b><u><i>psicodinámica</i></u></b> está formada con raíces
+          griegas y significa <b><i>ciencia que
+              estudia las fuerzas que motivan la conducta</i></b>. Sus componentes léxicos son <b>psyke (alma)</b> y
+          <b>dynamis (fuerza, poder)</b>, más el sufijo <b>-ica (relativo a)</b>.</p>
+
 
       </div>
 
