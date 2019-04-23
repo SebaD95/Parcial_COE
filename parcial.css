@@ -88,12 +88,6 @@ body {
     justify-content: center;
   }
 
-  #variable {
-    margin-top: 50px;
-    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
-    border-radius: 12px;
-  }
-
   h1,
   h3 {
     text-align: center;
@@ -105,6 +99,73 @@ body {
   .rounded-circle {
     margin: auto;
     display: block;
+  }
+
+  #c1{
+    float: left;
+    width: 40%;
+    margin-bottom: 13px;
+    padding: 6px;
+    background-color: snow;
+    border-radius: 30px;
+    border: 3px solid salmon;
+  }
+
+  #c2{
+    float: right; 
+    width: 53%;
+    margin: 3px;
+    padding: 6px;
+    background-color: azure;
+    border-radius: 20px;
+    border: 3px solid cornflowerblue;
+  }
+
+  #c3{
+    margin: 10px;
+    padding: 6px;
+    clear: both;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    border: 3px solid goldenrod;
+  }
+
+  #c4{
+    float: left; 
+    width: 40%;
+    margin: 3px;
+    padding: 6px;
+    background-color: azure;
+    border-radius: 20px;
+    border: 3px solid cornflowerblue;
+   
+  }
+
+  #c5{
+    float: right; 
+    width: 55%;
+    margin: 3px;
+    padding: 6px;
+    background-color: snow;
+    border-radius: 30px;
+    border: 3px solid salmon;
+   
+  }
+
+  li{
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #variable #Introducción {
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+  }
+
+  #variable #Características{
+    margin: 30px;
   }
 
   
