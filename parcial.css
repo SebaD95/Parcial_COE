@@ -158,6 +158,12 @@ body {
     text-align: center;
   }
 
+  .ong{
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+  }
+
   #variable #Introducción {
     margin-top: 30px;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
