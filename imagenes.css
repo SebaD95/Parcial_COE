@@ -33,6 +33,7 @@ div.imagen {
  div.imagen2 {
     display: table;
     margin: 10px;
+    float: left;
   }
 
   div.imagen2 img {
