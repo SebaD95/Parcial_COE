@@ -1,0 +1,59 @@
+/* ------------- Imagen Introducción ---------------- */
+
+div.imagen {
+    display: table;
+    float: right;
+    margin: 5px;
+  }
+
+  div.imagen img {
+    margin: 0;
+    padding: 0;
+  }
+
+  div.imagen span {
+    line-height: normal;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    height: 0;
+  }
+
+  div.imagen span span {
+    display: block;
+    padding: 3px;
+    text-shadow: 0 0 15px white;
+  }
+
+ /* ------------- Imagen Características ---------------- */
+
+ div.imagen2 {
+    display: table;
+    margin: 10px;
+  }
+
+  div.imagen2 img {
+    margin: 0;
+    padding: 0;
+  }
+
+  div.imagen2 span {
+    line-height: normal;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    height: 0;
+  }
+
+  div.imagen2 span span {
+    display: block;
+    padding: 3px;
+    text-shadow: 0 0 15px white;
+  }
+ 
