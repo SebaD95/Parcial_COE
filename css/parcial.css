@@ -103,12 +103,14 @@ body {
 
   #c1{
     float: left;
-    width: 40%;
-    margin-bottom: 13px;
-    padding: 6px;
+    width: 45%;
+    margin-bottom: 12px;
+    padding: 5px;
     background-color: snow;
     border-radius: 30px;
     border: 3px solid salmon;
+    font-size: 14px;
+    text-align: center;
   }
 
   #c2{
@@ -119,6 +121,8 @@ body {
     background-color: azure;
     border-radius: 20px;
     border: 3px solid cornflowerblue;
+    font-size: 14px;
+    text-align: center;
   }
 
   #c3{
@@ -171,7 +175,7 @@ body {
   }
 
   #variable #Características{
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   
