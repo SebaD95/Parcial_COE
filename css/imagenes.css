@@ -32,7 +32,7 @@ div.imagen {
 
  div.imagen2 {
     display: table;
-    margin: 8px;
+    margin: 6px;
     float: left;
   }
 
@@ -63,6 +63,7 @@ div.imagen {
  div.imagen3 {
   display: table;
   float: right;
+  margin: 10px;
 }
 
 div.imagen3 img {
