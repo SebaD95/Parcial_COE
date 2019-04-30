@@ -58,5 +58,34 @@ div.imagen {
     text-shadow: 0 0 15px white;
   }
 
+  /* ------------- Imagen Card 5 ---------------- */
+
+ div.imagen3 {
+  display: table;
+  float: right;
+}
+
+div.imagen3 img {
+  margin: 0;
+  padding: 0;
+}
+
+div.imagen3 span {
+  line-height: normal;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-style: italic;
+  text-align: center;
+  height: 0;
+}
+
+div.imagen3 span span {
+  display: block;
+  padding: 3px;
+  text-shadow: 0 0 15px white;
+}
+
 
  
