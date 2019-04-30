@@ -57,6 +57,11 @@
       overflow: hidden;
     }
 
+    #letra{
+      font-size: 7px;
+      padding: 3px;
+    }
+
     .card-header {
       color: #D32F2F;
       text-align: center;
